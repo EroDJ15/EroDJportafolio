@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
-import Home from './components/home';
+import About from './Components/About';
+import './App.css'
 
 
 function App() {
@@ -55,7 +56,7 @@ function App() {
           <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-5 items-center sm:justify-center md:flex-wrap show sm:hidden">Welcome to my portfolio personal</h1>
 
         </section>
-        <Home />
+        <About />
       </section>
 
       <Footer />
