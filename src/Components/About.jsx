@@ -27,7 +27,7 @@ function About() {
           </div>
         </div>
         <div className="my-2 p-6">
-          <img src='/public/images/Avatar.png' className="border-1 border-white rounded-xl bg-cover  px-1 justify-center max-w-[140] sm:max-w-[260px]" ></img>
+          <img src='/images/Avatar.png' className="border-1 border-white rounded-xl bg-cover  px-1 justify-center max-w-[140] sm:max-w-[260px]" ></img>
         </div>
 
 

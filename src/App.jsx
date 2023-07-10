@@ -53,7 +53,7 @@ function App() {
 
       <section className="flex-grow bg-blue-100 dark:bg-primary dark:text-cyan-50">
         <section className="flex flex-col items-center justify-center flex-grow">
-          <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-5 items-center sm:justify-center md:flex-wrap show sm:hidden">Welcome to my portfolio personal</h1>
+          <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-5 items-center sm:justify-center flex-wrap show sm:hidden">Welcome to my portfolio personal</h1>
 
         </section>
         <About />
