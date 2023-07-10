@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <section className="-mt-12">
-      <footer className='flex flex-col items-center mt-auto dark:bg-primary dark:text-cyan-50 text-center'>
+    <section className="-mt-10">
+      <footer className='flex flex-col items-center mt-auto bg-blue-100 dark:bg-primary dark:text-cyan-50 text-center'>
         <p className="dark:text-cyan-50 text-xs font-extralight text-center">
           &copy; 2023 Todos los derechos reservados
         </p>

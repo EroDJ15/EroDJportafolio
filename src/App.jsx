@@ -39,7 +39,7 @@ function App() {
   }, []);
 
   return (
-    <main className={`flex flex-col min-h-screen ${darkMode ? 'dark' : ''}`}>
+    <main className={`flex flex-col min-h-screen ${darkMode ? 'dark' : ''} min-h-screen`}>
 
       <Navbar
         toggleDarkMode={toggleDarkMode}

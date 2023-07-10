@@ -29,7 +29,7 @@ function Home() {
         {/* Contenido de imagen */}
         <div className='my-7 w-full p-2'>
           <div className='mx-auto mb-6 max-w-[415px]'>
-            <img className='sm:ml-28 ml-1 text-left sm:text-center w-auto h-[210px] m-auto rounded-lg bg-cover bg-no-repeat' src="public/images/Avatar.png" alt="Avatar" />
+            <img className='sm:ml-28 ml-1 text-left sm:text-center w-auto h-[210px] m-auto rounded-lg bg-cover bg-no-repeat' src="/images/Avatar.png" alt="Avatar" />
           </div>
         </div>
 
