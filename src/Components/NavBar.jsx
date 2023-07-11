@@ -42,7 +42,7 @@ function Navbar({ toggleDarkMode }) {
         <i className={`bx ${menuVisible ? 'bx-x' : 'bx-menu'} text-2xl hover:text-sky-300`}></i>
       </button>
 
-      <ul className={`p-1.5 fixed bottom-20 right-3 hover:bg-slate-300 dark:bg-slate-700 sm:hover:bg-transparent rounded-lg sm:shadow-none sm:static sm:flex gap-10 md:text-2xl text-base text-center sm:font-bold font-semibold sm:dark:bg-primary dark:text-cyan-50 ${menuVisible ? 'block' : 'hidden'}`}>
+      <ul className={`p-1.5 fixed top-[435px] right-3 hover:bg-slate-300 dark:bg-slate-700 sm:hover:bg-transparent rounded-lg sm:shadow-none sm:static sm:flex gap-10 md:text-2xl text-base text-center sm:font-bold font-semibold sm:dark:bg-primary dark:text-cyan-50 ${menuVisible ? 'block' : 'hidden'}`}>
         <li className="py-2.5 sm:py-1 sm:ml-5">
           <a href="/" className="hover:text-sky-300 text flex items-center" onClick={(event) => handleMenuItemClick(event, '/')}>
             <i className="bx bx-home-alt-2 sm:hidden"></i>

@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <main className='py-0 sm:py-6'>
-      <section className="ml-4 mr-4 sm:mx-auto min-h-max px-4 py-1 sm:p-1 sm:m-1 max-w-screen-md text-center flex flex-col sm:flex-row">
+      <section className="ml-4 mr-4 sm:mx-auto min-h-max px-4 py-1 sm:p-1 sm:m-6 max-w-screen-md text-center flex flex-col sm:flex-row">
         <div className="flex-grow text-left sm:text-center">
           <div className="p-0 sm:w-full sm:h-600 text-left">
             <h1 className="p-0 text-sky-600 dark:text-sky text-2xl font-bold tracking-widest leading-10">Hi, I'm</h1>
@@ -11,13 +11,13 @@ function About() {
             <p className="text-lg mt-5 font-bold text-slate-500 dark:text-slate-600">
               Passionate full-stack web developer experienced in JS, React, HTML, Tailwind CSS, Python, and learning Flutter.
             </p>
-            <div className="mt-3">
-              <button className="w-auto rounded-lg shadow-md px-6 py-2 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300">
-                Mas informacion
+            <div className="mt-5">
+              <button className="w-auto rounded-lg shadow-md px-5 py-2 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300">
+                More information
               </button>
 
             </div>
-            <div className="flex text-1xl text-left sm:text-center ml-0 mt-2">
+            <div className="flex text-1xl text-left sm:text-center ml-0 mt-3">
               <a href="https://github.com/EroDJ15">
                 <i className="bx bxl-github px-1 hover:text-sky-300"></i>
               </a>
@@ -32,8 +32,7 @@ function About() {
         </div>
       </section >
       <section>
-        <div
-          className='flex flex-col items-center justify-center flex-grow'>
+        <div className='flex flex-col items-center justify-center flex-grow sm:mt-8'>
           <h2 className='text-center font-bold hidden sm:flex text-sky-600'>
             Skils
           </h2>
