@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
-import About from './Components/About';
+import About from './Components/About';;
 import './App.css'
 
 
@@ -40,15 +40,14 @@ function App() {
 
   return (
     <main className={`flex flex-col min-h-screen ${darkMode ? 'dark' : ''} min-h-screen`}>
-
       <Navbar
         toggleDarkMode={toggleDarkMode}
         toggleMobileMenu={toggleMobileMenu}
         toggleNavbar={toggleNavbar}
         showMobileMenu={showMobileMenu}
         navbarVisible={navbarVisible}
-      />
 
+      />
 
 
       <section className="flex-grow bg-blue-100 dark:bg-primary dark:text-cyan-50">
@@ -58,7 +57,6 @@ function App() {
         </section>
         <About />
       </section>
-
       <Footer />
     </main>
   );
