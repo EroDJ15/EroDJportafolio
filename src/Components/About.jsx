@@ -2,17 +2,17 @@ import React from 'react';
 
 function About() {
   return (
-    <main className='py-0 sm:py-6'>
+    <main className='py-0 sm:py-0'>
       <section className="ml-4 mr-4 sm:mx-auto min-h-max px-4 py-1 sm:p-1 sm:m-6 max-w-screen-md text-center flex flex-col sm:flex-row">
         <div className="flex-grow text-left sm:text-center">
           <div className="p-0 sm:w-full sm:h-600 text-left">
             <h1 className="p-0 text-sky-600 dark:text-sky text-2xl font-bold tracking-widest leading-10">Hi, I'm</h1>
             <p className="py-0 text-3xl font-bold text-slate-600 dark:text-slate-300">Jerovic Pino</p>
-            <p className="text-lg mt-5 font-bold text-slate-500 dark:text-slate-600">
+            <p className="text-lg mt-4 font-bold text-slate-500 dark:text-slate-600">
               Passionate full-stack web developer experienced in JS, React, HTML, Tailwind CSS, Python, and learning Flutter.
             </p>
-            <div className="mt-5">
-              <button className="w-auto rounded-lg shadow-md px-5 py-2 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300">
+            <div className="mt-4">
+              <button className="w-auto rounded-lg shadow-md px-4 py-1.5 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300">
                 More information
               </button>
 
@@ -27,12 +27,12 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="my- p-3">
-          <img src='/images/Mi proyecto-1 (2).png' className=" text-lg rounded-xl  bg-cover  px-3 justify-center max-w-[300px] sm:max-w-[360px] lg:bg-[length:617px_840px]" ></img>
+        <div className="my-1 p-2 mt-1 sm:p-0 sm:px-7 content-center">
+          <img src="/images/EroDJ -1 (6).png" className="rounded-xl bg-contain px-6 py-0 max-w-[310px] sm:max-w-[320px]" />
         </div>
       </section >
       <section>
-        <div className='flex flex-col items-center justify-center flex-grow sm:mt-8'>
+        <div className='flex flex-col items-center justify-center flex-grow sm:mt-10 p-4'>
           <h2 className='text-center font-bold hidden sm:flex text-sky-600'>
             Skils
           </h2>
