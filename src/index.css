@@ -22,7 +22,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  outline: 1px solid slategrey;
+  outline: 2px solid slategrey;
 }
 
 @tailwind base;

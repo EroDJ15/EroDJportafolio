@@ -27,8 +27,8 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="my-2 p-6">
-          <img src='/images/Avatar.png' className="border-0 border-white rounded-xl ring-2 bg-cover  px-1 justify-center max-w-[140] sm:max-w-[260px] lg:bg-[length:617px_840px]" ></img>
+        <div className="my- p-3">
+          <img src='/public/images/Mi proyecto-1 (2).png' className=" text-lg rounded-xl  bg-cover  px-3 justify-center max-w-[300px] sm:max-w-[360px] lg:bg-[length:617px_840px]" ></img>
         </div>
       </section >
       <section>

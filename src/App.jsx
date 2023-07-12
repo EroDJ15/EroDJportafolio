@@ -55,7 +55,8 @@ function App() {
           <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-5 items-center sm:justify-center flex-wrap show sm:hidden">Welcome to my portfolio personal</h1>
 
         </section>
-        <About />
+        <About darkMode={darkMode} />
+
       </section>
       <Footer />
     </main>

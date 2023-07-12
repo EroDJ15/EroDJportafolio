@@ -8,18 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0f172a",
+        primary: "#0f172b",
       },
-      screens: {
-        sm: '570px',
-        md: '768px',
-        lg: '976px',
-        xl: '1440px',
+      height: {
+        height500: "500px",
+        height648: "648px",
+        height750: "750px",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
         serif: ["lato", "sans-serif"],
       },
+
+
     },
   },
   plugins: [],
