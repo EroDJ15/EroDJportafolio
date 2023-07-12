@@ -28,7 +28,7 @@ function About() {
           </div>
         </div>
         <div className="my- p-3">
-          <img src='/public/images/Mi proyecto-1 (2).png' className=" text-lg rounded-xl  bg-cover  px-3 justify-center max-w-[300px] sm:max-w-[360px] lg:bg-[length:617px_840px]" ></img>
+          <img src='/images/Mi proyecto-1 (2).png' className=" text-lg rounded-xl  bg-cover  px-3 justify-center max-w-[300px] sm:max-w-[360px] lg:bg-[length:617px_840px]" ></img>
         </div>
       </section >
       <section>
