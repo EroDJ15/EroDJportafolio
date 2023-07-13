@@ -25,6 +25,55 @@ body::-webkit-scrollbar-thumb {
   outline: 2px solid slategrey;
 }
 
+/* Estilos para el contenedor principal */
+css
+
+/* Estilos para el contenedor principal */
+.projects-container {
+  background-color: #0f172b;
+  color: white;
+  /* Agregar color de texto blanco para el modo oscuro */
+  padding: 20px;
+}
+
+/* Estilos para el título */
+.projects-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para cada proyecto */
+.project-card {
+  background-color: #0f172b;
+  color: white;
+  /* Agregar color de texto blanco para el modo oscuro */
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Estilos para el título de cada proyecto */
+.project-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+s
+
+/* Estilos para la descripción de cada proyecto */
+.project-description {
+  font-size: 14px;
+}
+
+/* Estilos para el slideshow */
+.slideshow {
+  background-color: #0f172b;
+  color: white;
+  /* Agregar color de texto blanco para el modo oscuro */
+  /* Agregar estilos adicionales para el slideshow en modo oscuro */
+}
 
 @tailwind base;
 @tailwind components;

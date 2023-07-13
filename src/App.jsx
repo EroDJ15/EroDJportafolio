@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Projects from './Components/Projects';
 import './App.css';
 
 function App() {
@@ -48,9 +47,9 @@ function App() {
         navbarVisible={navbarVisible}
       />
 
-      <section className="flex-grow bg-blue-100 dark:bg-primary dark:text-cyan-50">
+      <section className="flex-grow bg-blue-100 dark:bg-primary dark:text-cyan-50 ">
         <section className="flex flex-col items-center justify-center flex-grow">
-          <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-2 items-center sm:justify-center flex-wrap show sm:hidden">Welcome To My Personal Portfolio</h1>
+          <h1 className="text-md font-roboto font-bold text-center sm:relative top-0 p-2 items-center sm:justify-center flex-wrap show sm:hidden fixed bg-blue-100 dark:bg-primary w-[82%]">Welcome To My Personal Portfolio</h1>
         </section>
 
         <About darkMode={darkMode} />

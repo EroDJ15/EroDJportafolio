@@ -30,9 +30,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="my-5 p-0 mt-0 sm:p-0 sm:px-0 content-center">
-          <img src="/images/EroDJ -1 (12).png" className="rounded-xl bg-contain px-4 items-center justify-center right-2 py-0 max-w-[320px] sm:max-w-[330px]  dark:bg-primary dark:text-cyan-50" alt="logo" />
-        </div>
+
       </section>
 
       <section className="mt-18">
