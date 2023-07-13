@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
-import About from './Components/About';;
-import './App.css'
-
+import About from './Components/About';
+import Projects from './Components/Projects';
+import './App.css';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -46,18 +46,19 @@ function App() {
         toggleNavbar={toggleNavbar}
         showMobileMenu={showMobileMenu}
         navbarVisible={navbarVisible}
-
       />
-
 
       <section className="flex-grow bg-blue-100 dark:bg-primary dark:text-cyan-50">
         <section className="flex flex-col items-center justify-center flex-grow">
-          <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-2 items-center sm:justify-center flex-wrap show sm:hidden">Welcome to my portfolio personal</h1>
-
+          <h1 className="text-md font-roboto font-bold text-center sm:relative absolute top-2 items-center sm:justify-center flex-wrap show sm:hidden">Welcome To My Personal Portfolio</h1>
         </section>
+
         <About darkMode={darkMode} />
 
+        <section className="my-8">
+        </section>
       </section>
+
       <Footer />
     </main>
   );

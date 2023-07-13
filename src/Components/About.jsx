@@ -1,8 +1,12 @@
 import React from 'react';
+import Projects from './Projects';
 
-function About() {
+const About = () => {
+  const commonClasses = "p-2 hover:text-sky-300";
+  const commonIconClasses = "text-3xl font-extralight";
+
   return (
-    <main className='py-0 sm:py-0'>
+    <main className="py-0 sm:py-0">
       <section className="ml-4 mr-4 sm:mx-auto min-h-max px-4 py-1 sm:p-1 sm:m-6 max-w-screen-md text-center flex flex-col sm:flex-row">
         <div className="flex-grow text-left sm:text-center">
           <div className="p-0 sm:w-full sm:h-600 text-left">
@@ -15,7 +19,6 @@ function About() {
               <button className="w-auto rounded-lg shadow-md px-4 py-1.5 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300">
                 More information
               </button>
-
             </div>
             <div className="flex text-1xl text-left sm:text-center ml-0 mt-3">
               <a href="https://github.com/EroDJ15">
@@ -27,41 +30,37 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="my-1 p-2 mt-1 sm:p-0 sm:px-7 content-center">
-          <img src="/images/EroDJ -1 (6).png" className="rounded-xl bg-contain px-6 py-0 max-w-[310px] sm:max-w-[320px]" />
+        <div className="my-5 p-0 mt-0 sm:p-0 sm:px-0 content-center">
+          <img src="/images/EroDJ -1 (12).png" className="rounded-xl bg-contain px-4 items-center justify-center right-2 py-0 max-w-[320px] sm:max-w-[330px]  dark:bg-primary dark:text-cyan-50" alt="logo" />
         </div>
-      </section >
-      <section>
-        <div className='flex flex-col items-center justify-center flex-grow sm:mt-10 p-4'>
-          <h2 className='text-center font-bold hidden sm:flex text-sky-600'>
-            Skils
-          </h2>
-        </div>
-        <section className='text-center font-semibold hidden sm:flex px-3 text-slate-500 dark:text-slate-600'>
-          <div className='flex flex-grow items-center justify-center'>
-            <ul className='flex'>
-              <li className='p-2 hover:text-sky-300'>
-                <i className='bx bxl-html5 text-3xl font-extralight'></i>
-              </li>
-              <li className='p-2 hover:text-sky-300'>
-                <i className='bx bxl-python text-3xl font-extralight'></i>
-
-              </li>
-              <li className='p-2 hover:text-sky-300'>
-                <i className='bx bxl-css3 text-3xl font-extralight'></i>
-              </li>
-              <li className='p-2 hover:text-sky-300'>
-                <i className='bx bxl-javascript text-3xl font-extralight'></i>
-
-              </li>
-              <li className='p-2 hover:text-sky-300'>
-                <i className='bx bxl-react text-3xl font-extralight'></i>
-              </li>
-
-            </ul>
-          </div>
-        </section>
       </section>
+
+      <section className="mt-18">
+        <div className="flex items-center justify-center">
+          <h2 className="font-bold text-center text-sky-600">Skills</h2>
+        </div>
+        <div className="flex justify-center mt-4">
+          <ul className="flex">
+            <li className={commonClasses}>
+              <i className={`bx bxl-html5 ${commonIconClasses}`}></i>
+            </li>
+            <li className={commonClasses}>
+              <i className={`bx bxl-python ${commonIconClasses}`}></i>
+            </li>
+            <li className={commonClasses}>
+              <i className={`bx bxl-css3 ${commonIconClasses}`}></i>
+            </li>
+            <li className={commonClasses}>
+              <i className={`bx bxl-javascript ${commonIconClasses}`}></i>
+            </li>
+            <li className={commonClasses}>
+              <i className={`bx bxl-react ${commonIconClasses}`}></i>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <Projects />
     </main>
   );
 }
