@@ -16,7 +16,7 @@ const Footer = () => {
             alt="github"
             className={'w-3 h-3 mr-2 dark:text-cyan-50 sm:flex-wrap sm:mr-1'}
           />
-          Creado por: Jerovic Pino
+          Created by: Jerovic Pino
         </a>
       </footer>
     </section>

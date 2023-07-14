@@ -1,33 +1,39 @@
 import React from 'react';
-import projectImage from '/public/images/Carrito.png';
+const imagesProjects = {
+  1: '/Images/Carrito.png',
+  2: '/Images/Frases.png',
+}
+const SlideShow = () => {
 
-const Projects = () => {
-  const projects = [
-    { id: 1, title: 'Carrito de compra', website: 'https://carritojerovic1.netlify.app/' },
-    { id: 2, title: 'Project 2', description: 'This is project 2' },
-    { id: 3, title: 'Project 3', description: 'This is project 3' },
-  ];
-
-  const project = projects[0]; // Obtener el primer proyecto
 
   return (
-    <main className='flex flex-col items-center bg-transparent-lg p-6 mb-4 '>
-      <section className='text-center'>
-        <h1 className='font-bold p-2'>My Projects</h1>
-        <div className='flex flex-col items-center  border rounded-md border-sky-300 dark:border-slate-600'>
-          <ul className='hover:text-blue-500 font-semibold p-2'>
-            <li key={project.id}>
-              <h2>{project.title}</h2>
-              <p>{project.description}</p>
-              <a href={project.website} target="_blank" rel="noopener noreferrer">
-                <img className='items-center overflow-x-scroll hover:scale-95 hover:transition-transform hover:duration-300 p-2' src={projectImage} alt="Project" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
+    <div className='min-h-min bg-blue-100 dark:bg-primary dark:text-cyan-50'>
+      <div className='border-1 border-white rounded-lg w-fit mx-auto'>
+        <a href='https://carritojerovic1.netlify.app/'>
+          <div className='flex flex-col items-center bg-transparent p-6 mb-2'>
+            <img className='p-2 items-center overflow-x-scroll hover:scale-95 hover:transition-transform hover:duration-300 border rounded-md shadow-lg dark:border-slate-600' src={imagesProjects[1]} alt="carrito" />
+            <p className='rounded-lg p-1 px-2 mt-3 dark:bg-slate-700 dark:text-cyan-50 text-sm shadow-md tracking-widest hover:bg:text-slate-300 font-light botton'>
+              Carrito de compras
+              <br />
+              <span className='text-lg flex justify-between mt-1 font-extralight p-1'>
+                <i className='bx bxl-html5 hover:text-sky-300'></i>
+                <i className='bx bxl-css3 hover:text-sky-300' ></i>
+                <i className='bx bxs-file-js hover:text-sky-300' ></i>
+              </span>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div className='text-center px-1'>
+        <button>
+          <i className='bx bxs-chevron-left text-sky-600 hover:text-sky-700 text-2xl font-light left-6'></i>
+        </button>
+        <button>
+          <i className='bx bxs-chevron-right text-sky-600 hover:text-sky-700 text-2xl font-light'></i>
+        </button>
+      </div>
+    </div>
   );
 };
 
-export default Projects;
+export default SlideShow

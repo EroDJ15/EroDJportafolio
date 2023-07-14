@@ -1,10 +1,8 @@
 import React from 'react';
-import Projects from './Projects';
 
 const About = () => {
   const commonClasses = "p-2 hover:text-sky-300";
   const commonIconClasses = "text-3xl font-extralight";
-
   return (
     <main className="py-0 sm:py-0">
       <section className="ml-4 mr-4 sm:mx-auto min-h-max px-4 py-1 sm:p-1 sm:m-6 max-w-screen-md text-center flex flex-col sm:flex-row">
@@ -29,6 +27,9 @@ const About = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="my-5 p-0 mt-0 sm:p-0 sm:px-0 content-center">
+          <img src="/Images/EroDJ -1 (12).png" className="hidden sm:block rounded-xl bg-contain px-4 items-center justify-center right-2 py-0 max-w-[320px] sm:max-w-[330px] dark:bg-primary dark:text-cyan-50" alt="logo" />
         </div>
 
       </section>
@@ -57,10 +58,7 @@ const About = () => {
           </ul>
         </div>
       </section>
-
-      <Projects />
     </main>
   );
 }
-
 export default About;
