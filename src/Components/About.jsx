@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => {
-  const commonClasses = "p-2 hover:text-sky-300";
+  const commonClasses = "p-1 hover:text-sky-300";
   const commonIconClasses = "text-3xl font-extralight";
   return (
     <main className="py-0 sm:py-0">
@@ -28,7 +28,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="my-5 p-0 mt-0 sm:p-0 sm:px-0 content-center">
+        <div className="my-4 p-0 mt-0 sm:p-0 sm:px-0 content-center">
           <img src="/Images/EroDJ -1 (12).png" className="hidden sm:block rounded-xl bg-contain px-4 items-center justify-center right-2 py-0 max-w-[320px] sm:max-w-[330px] dark:bg-primary dark:text-cyan-50" alt="logo" />
         </div>
 
@@ -55,6 +55,11 @@ const About = () => {
             <li className={commonClasses}>
               <i className={`bx bxl-react ${commonIconClasses}`}></i>
             </li>
+            <li>
+              <li className={commonClasses}></li>
+              <i className={'bx bxl-tailwind-css ${commonIconClasses} text-3xl items-center  hover:text-sky-300'}></i>
+            </li>
+
           </ul>
         </div>
       </section>

@@ -3,9 +3,14 @@ import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import styled from 'styled-components';
 import './App.css';
 
 function App() {
+  const StyledComponent = styled.div`
+  ;
+`;
+
   const [darkMode, setDarkMode] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(true);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -33,7 +38,7 @@ function App() {
     };
   }, []);
   return (
-    <main className={`flex flex-col ${darkMode ? 'dark' : ''} min-h-screen`}>
+    <main className={`flex flex-col ${darkMode ? 'dark' : ''} min - h - screen`}>
       <Navbar
         toggleDarkMode={toggleDarkMode}
         toggleMobileMenu={toggleMobileMenu}
@@ -43,15 +48,16 @@ function App() {
       />
 
       <section className="flex-grow bg-blue-100 dark:bg-primary dark:text-cyan-50 ">
-        <section className="flex flex-col items-center justify-center flex-grow">
-          <h1 className="text-md font-roboto font-bold text-center sm:relative top-0 p-2 items-center sm:justify-center flex-wrap show sm:hidden fixed bg-blue-100 dark:bg-primary w-[82%]">Welcome To My Personal Portfolio</h1>
-        </section>
+
         <About darkMode={darkMode} />
         <Projects darkMode={darkMode} />
         <section className="my-8">
         </section>
       </section>
       <Footer />
+      <StyledComponent>
+        {/* Contenido del componente */}
+      </StyledComponent>
     </main>
   );
 }
