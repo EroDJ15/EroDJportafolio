@@ -30,7 +30,7 @@ function Navbar({ toggleDarkMode }) {
         </h1>
       </section>
       <a href="/">
-        <img className="w-12 px-1 top-3 hidden relative sm:flex dark:bg-primary dark:text-cyan-50" src="/public/images/logo1.png" alt="Icono" />
+        <img className="w-12 px-1 top-3 hidden relative sm:flex dark:bg-primary dark:text-cyan-50" src='/Images/logo1.png' alt="Icono" />
       </a>
       <button className="fixed origin-bottom-left sm:[botton-4]right-3 py-3 pt-3 sm:hidden text-black dark:text-cyan-50" onClick={toggleMenu}>
         <i className={`bx ${menuVisible ? 'bx-x' : 'bx-menu'} text-2xl hover:text-sky-300`}></i>
