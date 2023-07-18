@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => {
-  const commonClasses = "p-1 hover:text-sky-300";
+  const commonClasses = "p-1.5 hover:text-sky-300 inline-block align-text-bottom ";
   const commonIconClasses = "text-3xl font-extralight";
   return (
     <main className="py-0 sm:py-0">
@@ -11,17 +11,17 @@ const About = () => {
             <h1 className="p-0 text-sky-600 dark:text-sky text-2xl font-bold tracking-widest leading-10">Hi, I'm</h1>
             <p className="py-0 text-3xl font-bold text-slate-600 dark:text-slate-300">Jerovic Pino</p>
             <p className="text-lg mt-4 font-bold text-slate-500 dark:text-slate-600">
-              Passionate full-stack web developer experienced in JS, React, HTML, Tailwind CSS, Python, and learning Flutter.
+              Passionate Full-Stack Web Developer, with expirience in Js, React, HTML, Tailwind CSS, Python. Working on learning Flutter.
             </p>
-            <div className="mt-4">
+            <div className="mt-3">
               <button className="w-auto rounded-lg shadow-md px-4 py-1.5 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300 font-bold">
                 <a href="https://www.canva.com/design/DAFo9WP2kjk/tlanQ2wGZm71X2XXP-85ag/view?utm_content=DAFo9WP2kjk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
-                  Cv / Hv
+                  CV / HV
                 </a>
               </button>
 
             </div>
-            <div className="flex text-1xl text-left sm:text-center ml-0 mt-3">
+            <div className="flex text-xl text-left sm:text-center ml-0 mt-3">
               <a href="https://github.com/EroDJ15">
                 <i className="bx bxl-github px-1 hover:text-sky-300"></i>
               </a>
@@ -31,7 +31,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="my-4 p-0 mt-0 sm:p-0 sm:px-0 content-center">
+        <div className="my-5 p-0 mt-0 sm:p-0 sm:px-0 content-center">
           <img src="/Images/EroDJ -1 (12).png" className="hidden sm:block rounded-xl bg-contain px-4 items-center justify-center right-2 py-0 max-w-[320px] sm:max-w-[330px] dark:bg-primary dark:text-cyan-50" alt="logo" />
         </div>
 
@@ -60,7 +60,7 @@ const About = () => {
             </li>
             <li>
               <li className={commonClasses}></li>
-              <i className={'bx bxl-tailwind-css ${commonIconClasses} text-3xl items-center  hover:text-sky-300'}></i>
+              <i className={'bx bxl-tailwind-css ${commonIconClasses} text-3xl p-2 -ml-3 hover:text-sky-300'}></i>
             </li>
 
           </ul>
