@@ -62,7 +62,7 @@ function Navbar({ toggleDarkMode }) {
         </li>
 
       </ul>
-      <button className="flex items-center bg-fixed dark:bg-primary dark:text-cyan-50 mr-5 px-1 py-1 sm:px-9 mt-1" id="dark" onClick={toggleDarkMode}>
+      <button className="flex items-center bg-absolute dark:bg-primary dark:text-cyan-50 mr-5 px-1 py-1 sm:px-10 sm:mt-0 mt-0" id="dark" onClick={toggleDarkMode}>
         {toggleDarkMode ? (
           <i className="bx bx-sun hover:text-sky-300 text-xl fixed"></i>
         ) : (

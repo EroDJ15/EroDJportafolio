@@ -14,9 +14,12 @@ const About = () => {
               Passionate full-stack web developer experienced in JS, React, HTML, Tailwind CSS, Python, and learning Flutter.
             </p>
             <div className="mt-4">
-              <button className="w-auto rounded-lg shadow-md px-4 py-1.5 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300">
-                More information
+              <button className="w-auto rounded-lg shadow-md px-4 py-1.5 w-250px hover:text-sky-600 text-lg dark:bg-slate-700 tracking-widest hover:bg:text-slate-300 font-bold">
+                <a href="https://www.canva.com/design/DAFo9WP2kjk/tlanQ2wGZm71X2XXP-85ag/view?utm_content=DAFo9WP2kjk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+                  Cv / Hv
+                </a>
               </button>
+
             </div>
             <div className="flex text-1xl text-left sm:text-center ml-0 mt-3">
               <a href="https://github.com/EroDJ15">
